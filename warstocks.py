@@ -49,6 +49,7 @@ CANDIDATE_STOCKS: Dict[str, Dict] = {
     "RTX":          {"name": "Raytheon Technologies",    "country": "US",    "industry": "Defence"},
     "NOC":          {"name": "Northrop Grumman",         "country": "US",    "industry": "Defence"},
     "LMT":          {"name": "Lockheed Martin",          "country": "US",    "industry": "Defence"},
+    "BA":           {"name": "Boeing",                   "country": "US",    "industry": "Defence/Aerospace"},
     "XOM":          {"name": "Exxon Mobil",              "country": "US",    "industry": "Energy"},
     "CVX":          {"name": "Chevron",                  "country": "US",    "industry": "Energy"},
     "BEL.NS":       {"name": "Bharat Electronics",       "country": "India", "industry": "Defence"},

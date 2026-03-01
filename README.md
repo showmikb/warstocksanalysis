@@ -66,7 +66,7 @@ Edit the top of `warstocks.py` to customize:
 |----------|-------------|---------|
 | `WINDOW_DAYS` | Calendar days after war start to measure | `60` |
 | `WARS` | List of wars with name and start date | 10 wars (1990–2023) |
-| `CANDIDATE_STOCKS` | Stocks to track (ticker, name, country, industry) | 11 stocks (US + India) |
+| `CANDIDATE_STOCKS` | Stocks to track (ticker, name, country, industry) | 12 stocks (US + India) |
 
 ## Stocks Tracked
 
@@ -76,6 +76,7 @@ Edit the top of `warstocks.py` to customize:
 | RTX | Raytheon Technologies | US | Defence |
 | NOC | Northrop Grumman | US | Defence |
 | LMT | Lockheed Martin | US | Defence |
+| BA | Boeing | US | Defence/Aerospace |
 | XOM | Exxon Mobil | US | Energy |
 | CVX | Chevron | US | Energy |
 | BEL.NS | Bharat Electronics | India | Defence |
