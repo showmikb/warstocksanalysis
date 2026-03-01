@@ -10,28 +10,29 @@ Analyses how defence, energy, and commodity stocks performed during 10 major war
 # Install Homebrew (if not installed)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Python 3
-brew install python
+# Install Git and Python 3
+brew install git python
 ```
 
 ### Windows
 
-Download and install Python from https://www.python.org/downloads/
-
-During installation, **check "Add Python to PATH"**.
+1. Download and install Git from https://git-scm.com/download/win
+2. Download and install Python from https://www.python.org/downloads/
+   - During installation, **check "Add Python to PATH"**
 
 ### Linux (Ubuntu/Debian)
 
 ```bash
 sudo apt update
-sudo apt install python3 python3-pip python3-venv
+sudo apt install git python3 python3-pip python3-venv
 ```
 
-## Setup
+## Installation
 
 ```bash
-# Clone or download this project, then cd into it
-cd warstock
+# Clone the repository
+git clone https://github.com/showmikb/warstocksanalysis.git
+cd warstocksanalysis
 
 # Create a virtual environment
 python3 -m venv venv
